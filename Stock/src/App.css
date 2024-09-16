@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: rgb(251, 251, 251);
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+}
+
+#nav-bar {
+  height: 10vh;
+  background: rgb(152, 38, 190);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Add padding to the navbar */
+}
+
+.Nav-buttons {
+  display: flex;
+  gap: 20px; /* Add gap between buttons */
+  align-items: center;
+}
+
+.Nav-buttons form {
+  display: flex;
+  gap: 10px; /* Add gap between form elements */
+  align-items: center;
+}
+
+#nav-bar input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#nav-bar button {
+  font-size: 1.2rem; /* Increase the font size of the buttons */
+  padding: 10px 20px; /* Increase padding for larger buttons */
+  background-color: #FFFFFF; /* White background for buttons */
+  color: #9826BE; /* Button text color matching the navbar background */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+#nav-bar button:hover {
+  background-color: #E6E6E6; /* Slightly darker background on hover */
+}
